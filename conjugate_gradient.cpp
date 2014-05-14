@@ -19,7 +19,7 @@ int main()
     }
 
     char filepath[256];
-    sprintf(filepath, "conjugat/%lf,%lf.txt", x[0], x[1]);
+    sprintf(filepath, "conjugate/%lf,%lf.txt", x[0], x[1]);
     ofstream fout; // file出力の為の定義
     fout.open(filepath); // ファイルを開く
     fout << "#k¥tx1¥tx2¥tλ" << endl; // 見出し出力
