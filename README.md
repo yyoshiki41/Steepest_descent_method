@@ -18,3 +18,7 @@ recursion_equation
 
 ##共役勾配法
 conjugate_gradient
+
+
+##PSO
+particle_swarm_optimization
